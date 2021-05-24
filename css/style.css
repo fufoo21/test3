@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+/* --------------------------------
+ * base
+ * -------------------------------- */
 html {
 	font-size: 62.5%;
 }
@@ -36,7 +39,7 @@ a:link, a:visited, a:hover, a:active {
 	margin: 15px 9px 10px;
 	color: #aaa;
 	letter-spacing: 1px;
-	font-family: "Trebuchet MS", 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, 'sans-serif';
+	font-family: "Trebuchet MS", "Hiragino Kaku Gothic ProN", Meiryo, 'sans-serif';
 }
 .item .category::before {
 	content: '';
