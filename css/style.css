@@ -11,7 +11,7 @@ body {
 	background-color: #f6f7fb;
 	color: #333;
 	font-size: 1.2rem;
-	font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, 'sans-serif'
+	font-family: "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
 }
 *, *::before, *::after {
 	box-sizing: border-box;
@@ -20,6 +20,8 @@ a:link, a:visited, a:hover, a:active {
 	color: #7C5119;
 	text-decoration: none;
 }
+
+
 /* --------------------------------
  * item
  * -------------------------------- */
@@ -27,7 +29,7 @@ a:link, a:visited, a:hover, a:active {
 	width: 180px;
 	margin-bottom: 4px;
 	padding: 8px;
-	border-bottom: 1px solid;
+	border-bottom: 3px solid;
 	border-radius: 5px;
 	background-color: #fff;
 }
@@ -39,7 +41,7 @@ a:link, a:visited, a:hover, a:active {
 	margin: 15px 9px 10px;
 	color: #aaa;
 	letter-spacing: 1px;
-	font-family: "Trebuchet MS", "Hiragino Kaku Gothic ProN", Meiryo, 'sans-serif';
+	font-family: "Trebuchet MS", 'Hiragino Kaku Gothic ProN', Meiryo, 'sans-serif';
 }
 .item .category::before {
 	content: '';
@@ -57,7 +59,7 @@ a:link, a:visited, a:hover, a:active {
 }
 .item > a {
 	display: block;
-	mergin: -8px -8px -11px;
+	margin: -8px -8px -11px;
 	padding: 8px 8px 11px;
 	border-radius: inherit;
 	color: #777;
@@ -79,10 +81,12 @@ a:link, a:visited, a:hover, a:active {
 .item-column .category::before {
 	border-color: #FFF100;
 }
-.item-breaktime,
+.item-breaktime
 .item-breaktime .category::before {
 	border-color: #C1EFFF;
 }
+
+
 
 
 
