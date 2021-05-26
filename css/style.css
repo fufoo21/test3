@@ -90,8 +90,6 @@ a:link, a:visited, a:hover, a:active {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	display: block;
-	height: 109px;
 	background: rgba(0, 0, 0, 0.5);
 	opacity: 0;
 	transition: opacity 0.3s linear;
@@ -102,7 +100,7 @@ a:link, a:visited, a:hover, a:active {
 .item-l > a::before {
 	height: 403px;
 }
-.item > a .imagr::after {
+.item > a .image::after {
 	content: 'MORE';
 	position: absolute;
 	top: 50%;
@@ -131,7 +129,7 @@ a:link, a:visited, a:hover, a:active {
 	box-shadow: 0 0 6px -1px rgba(0, 0, 0, 0.3);
 	opacity: 0.8;
 }
-.item > a:hover .imgae::before {
+.item > a:hover .image::before {
 	opacity: 1;
 }
 .item > a:hover::after {
