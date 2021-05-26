@@ -36,6 +36,11 @@ a:link, a:visited, a:hover, a:active {
 }
 .item .image {
 	position: relative;
+	/*
+	display: block;
+	width: 100%;
+	height: 109px;
+	*/
 }
 .item .image img {
 	width: 100%;
@@ -102,7 +107,9 @@ a:link, a:visited, a:hover, a:active {
 	position: absolute;
 	top: 50%;
 	left: 150%;
+	/*
 	display: block;
+	*/
 	width: 100px;
 	margin-top: -19px;
 	margin-left: -50px;
