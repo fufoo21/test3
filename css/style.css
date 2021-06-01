@@ -147,9 +147,6 @@ a:link, a:visited, a:hover, a:active {
 /* --------------------------------
  * challenge
  * -------------------------------- */
-.item {
-	overflow: hidden;
-}
 .item .image {
 	position: relative;
 }
@@ -184,8 +181,6 @@ a:link, a:visited, a:hover, a:active {
 	top: 50%;
 	left: 150%;
 	width: 100px;
-	margin-top: -19px; 
-	margin-left: -50px;
 	padding: 8px;
 	border: 3px solid #fff;
 	color: #fff;
@@ -194,7 +189,7 @@ a:link, a:visited, a:hover, a:active {
 	font-size: 1.6rem;
 	font-family: "Trebuchet MS", 'Hiragino Kaku Gothic ProN', Meiryo, 'sans-serif';
 	opacity: 0;
-	transition: all 0.3s ease-in-out;
+	transition: all 0.3s;
 }
 .item > a:hover::after {
 	left: 50%;
