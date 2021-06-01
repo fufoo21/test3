@@ -166,7 +166,7 @@ a:link, a:visited, a:hover, a:active {
 	height: 109px;
 	background: rgba(0, 0, 0, 0.5);
 	opacity: 0;
-	transition: opacity 0.3s liner;
+	transition: opacity 0.3s linear;
 }
 .item > a:hover .image::before {
 	opacity: 1;
