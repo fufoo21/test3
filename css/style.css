@@ -166,10 +166,10 @@ a:link, a:visited, a:hover, a:active {
 .item > a::after {
 	content: 'MORE';
 	position: absolute;
-	top: 20px;
-	left: 20px;
-	display: block;
+	top: 43.5px;
+	left: 50%;
 	width: 100px;
+	margin-left: -50px;
 	padding: 8px;
 	border: 3px solid #fff;
 	color: #fff;
@@ -178,7 +178,12 @@ a:link, a:visited, a:hover, a:active {
 	font-size: 1.6rem;
 	font-family: "Trebuchet MS", 'Hiragino Kaku Gothic ProN', Meiryo, 'sans-serif';
 }
-
+.item-m > a::after {
+	top: 62px;
+}
+.item-l > a::after {
+	top: 190.5px;
+}
 
 
 
