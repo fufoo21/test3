@@ -160,10 +160,9 @@ a:link, a:visited, a:hover, a:active {
 	content: '';
 	position: absolute;
 	top: 0;
+	right: 0;
 	bottom: 0;
 	left: 0;
-	display: block;
-	height: 109px;
 	background: rgba(0, 0, 0, 0.5);
 	opacity: 0;
 	transition: opacity 0.3s linear;
@@ -171,12 +170,14 @@ a:link, a:visited, a:hover, a:active {
 .item > a:hover .image::before {
 	opacity: 1;
 }
+/*
 .item-m > a::before {
 	height: 146px;
 }
 .item-l > a::before {
 	height: 403px;
 }
+*/
 .item > a .image::after {
 	content: 'MORE';
 	position: absolute;
