@@ -200,13 +200,14 @@ a:link, a:visited, a:hover, a:active {
 	left: 50%;
 	opacity: 1;
 }
+/*
 .item-m > a::after {
 	top: 62px;
 }
 .item-l > a::after {
 	top: 190.5px;
 }
-
+*/
 
 
 
